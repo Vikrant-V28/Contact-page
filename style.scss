@@ -1,0 +1,169 @@
+/** @format */
+
+body {
+  background: #060930;
+}
+
+.background {
+  display: flex;
+}
+
+.f-container {
+  flex: 0 1 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  margin-top: 150px;
+}
+
+.screen {
+  position: relative;
+  background: #0a0c27;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.493), 0 15px 15px rgba(0, 0, 0, 0.445);
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    z-index: -1;
+  }
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+
+  &.left {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  /* color: #f6692a; */
+  color: orangered;
+  font-size: 26px;
+  letter-spacing: 2px;
+
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    width: 50px;
+    height: 3px;
+
+    /* background: #f6692a; */
+    background: orangered;
+  }
+}
+
+.contact {
+  margin-top: auto;
+  font-size: 14px;
+
+  /* color: #f6692a; */
+  color: orangered;
+}
+
+.form-group {
+  margin-bottom: 15px;
+
+  &.message {
+    margin-top: 40px;
+  }
+
+  &.buttons {
+    margin-bottom: 0;
+  }
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: #ddd;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+
+  &::placeholder {
+    color: rgb(163, 163, 163);
+  }
+
+  &:focus {
+    border-bottom-color: rgb(163, 163, 163);
+  }
+}
+
+.form-button {
+  background: none;
+  border: 1px solid;
+  color: orangered;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  padding: 10px 20px;
+  margin-right: 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+
+  &:hover {
+    /* color: #f7afeb; */
+    color: forestgreen;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .screen-body {
+    flex-direction: column;
+  }
+
+  .screen-body-item.left {
+    margin-bottom: 30px;
+  }
+
+  .title {
+    flex-direction: row;
+
+    span {
+      margin-right: 12px;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .contact {
+    padding-top: 15px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .screen-body {
+    padding: 40px;
+  }
+
+  .screen-body-item {
+    padding: 0px;
+  }
+}
