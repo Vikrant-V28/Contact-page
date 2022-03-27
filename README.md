@@ -14,7 +14,7 @@ The simple code to create `Contact Page UI` using HTML & CSS.
 ### Output Screenshot
 <details><summary><b>Output</b></summary>
   <p align="center">
-    <a href="Outputs/output.png"><img src="https://user-images.githubusercontent.com/85709371/148973373-29a03fe9-ac8e-406c-8c22-a00efa508782.png" alt="output"></a>
+    <a href="Outputs/output.png"><img src="https://user-images.githubusercontent.com/85709371/148729133-450b001c-969b-445e-8272-c71c896e9cb9.png" alt="output"></a>
   </p>
 </details>
 <details><summary><b>Output 2</b></summary>
