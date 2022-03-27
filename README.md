@@ -28,5 +28,3 @@ The simple code to create `Contact Page UI` using HTML & CSS.
 ## *Author Name*
 [Vikrant](https://github.com/thevkrant)
 <!-- Visit <a href="https://thevkrant.github.io/Contact-page/">Here</a> -->
-
-![Project 3]()
