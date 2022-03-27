@@ -17,11 +17,6 @@ The simple code to create `Contact Page UI` using HTML & CSS.
     <a href="Outputs/output.png"><img src="https://user-images.githubusercontent.com/85709371/148729133-450b001c-969b-445e-8272-c71c896e9cb9.png" alt="output"></a>
   </p>
 </details>
-<details><summary><b>Output 2</b></summary>
-  <p align="center">
-    <a href="Outputs/output 2.png"><img src="https://user-images.githubusercontent.com/85709371/148973411-526165d5-6bfa-4730-9a86-034ae05a759e.png" alt="output"></a>
-  </p>
-</details>
 
 <!-- Visit <a href="https://thevkrant.github.io/Contact-page/">Here</a> -->
 
