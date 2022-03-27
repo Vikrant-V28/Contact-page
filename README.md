@@ -23,8 +23,7 @@ The simple code to create `Contact Page UI` using HTML & CSS.
   </p>
 </details>
 
-<!-- Visit <a href="https://thevkrant.github.io/Glowing-Impossible/">Here</a> -->
+<!-- Visit <a href="https://thevkrant.github.io/Contact-page/">Here</a> -->
 
 ## *Author Name*
 [Vikrant](https://github.com/thevkrant)
-<!-- Visit <a href="https://thevkrant.github.io/Contact-page/">Here</a> -->
